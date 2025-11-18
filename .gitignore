@@ -1,0 +1,85 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyo
+
+# Virtualenv
+bin/
+lib/
+lib64/
+include/
+share/
+pyvenv.cfg
+pip-selfcheck.json
+
+# Django
+*.log
+*.pot
+db.sqlite3
+db.sqlite3-journal
+media/
+static/
+staticfiles/
+
+# Backups SQL y CSV
+scripts_sql/
+scripts_bash/
+# *.sql
+# *.sql.gz
+# *.csv
+# *.csv.gz
+
+# EXCEPCIONES: Mantener archivos críticos
+!docs/*.sql
+!docs/*.sql.gz
+
+# Temporales
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+*.tmp
+
+# Scaffolding y experimentos
+scaffolding_*
+latency_results/
+refactored_templates/
+os/
+sys/
+
+# HTML temporales
+aaaaaaaaa.html
+fey-gradiente.html
+historial_medico.html
+tufte-style-chart-component.html
+page_obj.number
+lista_endpoints.urls
+
+# Bazofia
+basura/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-*
+.pydevproject
+.project
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Node (si usás tailwind/npm)
+node_modules/
+package-lock.json
+
+# Migrations compiladas (opcional)
+# */migrations/*.pyc
+# */migrations/__pycache__/

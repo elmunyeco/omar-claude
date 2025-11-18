@@ -63,6 +63,7 @@ lista_endpoints.urls
 
 # Bazofia
 basura/
+viejos_estudios/
 
 # IDEs
 .vscode/
@@ -83,3 +84,4 @@ package-lock.json
 # Migrations compiladas (opcional)
 # */migrations/*.pyc
 # */migrations/__pycache__/
+.gitignore_*
